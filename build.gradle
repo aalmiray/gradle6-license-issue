@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+    id 'com.github.hierynomus.license' version '0.15.0'
+}
+
+repositories {
+   jcenter()
+}
+
+dependencies {
+    api 'junit:junit:4.12'
+}
